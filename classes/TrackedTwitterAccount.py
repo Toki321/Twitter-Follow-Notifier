@@ -1,23 +1,24 @@
 import sys
 
-sys.path.append("D:\\Coding Projects\\gem-finder-notifier")
+sys.path.append("D:\\Coding Projects\\gemFinderNotifier\\follow-notifier")
 
 import requests
 from helpers.tweepyClient import getTweepyClient
 import os
 from classes.ToFollowAccount import ToFollowAccount
 
-client = getTweepyClient()
 
 
 class TrackedTwitterAccount:
-    def __init__(self, id):
+    def __init__(self, id, listNumber):
         self.id = str(id)
-        self.userObject = client.get_user(id=id)
+        bearer_token = "BEARER_TOKEN_" + listNumber
+        self.client = getTweepyClient(os.getenv(bearer_token))
+        self.userObject = self.client.get_user(id=id)
 
     # Function for getting following list here
     def getListFollowingIds(self):
-        return client.get_users_following(self.id)
+        return self.client.get_users_following(self.id)
 
     # Function to return what is not in list1 but is in list2, input is list2 and list1 we read from file
     def getNewFollows(self, nameListOld, nameListNew):
@@ -39,7 +40,7 @@ class TrackedTwitterAccount:
 
     # Function to  write a list to a txt file
     def writeToFile(self, followingListIds):
-        fileName = "./text-files-3/" + self.id + ".txt"
+        fileName = "./text-files-4/" + self.id + ".txt"
 
         with open(fileName, "w") as f:
             for id in followingListIds:
@@ -61,7 +62,7 @@ class TrackedTwitterAccount:
     def getCheckedNewFollows(self, newFollows):
         checkedNewFollows = []
         for username in newFollows:
-            toFollowAccount = ToFollowAccount(username)
+            toFollowAccount = ToFollowAccount(username, self.client)
             if toFollowAccount.checkConditions() == True:
                 checkedNewFollows.append(toFollowAccount)
 
@@ -70,7 +71,7 @@ class TrackedTwitterAccount:
     # Function to send telegram message
     def sendTelegramMessage(self, newFollows):
         TOKEN = os.getenv("TELEGRAM_GHOUL_TOKEN")
-        CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+        CHAT_ID = os.getenv("CHAT_TEST_ID")
         usernameOfTrackedAccount = self.userObject.data["username"]
         nameOfTrackedAccount = self.userObject.data["name"]
         print("\n")

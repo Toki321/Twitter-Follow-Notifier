@@ -1,16 +1,14 @@
 import sys
 
-sys.path.append("D:\\Coding Projects\\gem-finder-notifier")
+sys.path.append("D:\\Coding Projects\\gemFinderNotifier\\follow-notifier")
 from helpers.tweepyClient import getTweepyClient
-from helpers.substackCheck import isSubstackContainedInString
-from helpers.isUrlContained import isUrlContainedInString
-from helpers.nftCheck import isNftContainedInString
+from helpers.stringChecks import isSubstackContainedInString, isUrlContainedInString, isNftContainedInString
 
-client = getTweepyClient()
+
 
 
 class ToFollowAccount:
-    def __init__(self, username) -> None:
+    def __init__(self, username, client) -> None:
         self.username = username
         self.userObject = client.get_user(
             username=self.username, user_fields="entities,description"

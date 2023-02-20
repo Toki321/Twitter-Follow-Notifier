@@ -1,14 +1,14 @@
 import sys
 
-sys.path.append("D:\\Coding Projects\\gem-finder-notifier")
+sys.path.append("D:\\Coding Projects\\gemFinderNotifier\\follow-notifier")
 
 import os.path
 from classes.TrackedTwitterAccount import TrackedTwitterAccount
 
 
-def readIds():
+def readIds(accountsToTrackListNumber):
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(script_dir, "../accountsForTracking3")
+    file_path = os.path.join(script_dir, "..accountsToTrack/accountsForTracking" +  accountsToTrackListNumber  + ".txt")
 
     with open(file_path, "r") as f:
         lines = f.readlines()
@@ -23,10 +23,10 @@ def readIds():
         return toTrackIdList
 
 
-def createToTrackList():
+def createToTrackList(accountsToTrackListNumber):
     list = []
-    idsToTrack = readIds()
+    idsToTrack = readIds(accountsToTrackListNumber)
     for id in idsToTrack:
-        account = TrackedTwitterAccount(id)
+        account = TrackedTwitterAccount(id, accountsToTrackListNumber)
         list.append(account)
     return list

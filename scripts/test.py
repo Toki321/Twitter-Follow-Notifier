@@ -37,11 +37,3 @@ def runForEveryAccount():
     for list in listOfListsAccounts:
         for account in list:
             doLogicForOneAccount(account)
-
-
-def schedule():
-   
-    scheduler = BlockingScheduler()
-    scheduler.add_job(runForEveryAccount, "interval", seconds=15)
-
-    scheduler.start()

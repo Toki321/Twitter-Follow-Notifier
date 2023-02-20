@@ -1,8 +1,8 @@
 import sys
 
-sys.path.append("D:\\Coding Projects\\gem-finder-notifier")
+sys.path.append("D:\\Coding Projects\\gemFinderNotifier\\follow-notifier")
 
-
+print(sys.path)
 from classes.TrackedTwitterAccount import TrackedTwitterAccount
 from helpers.idsToTrack import readIds
 
