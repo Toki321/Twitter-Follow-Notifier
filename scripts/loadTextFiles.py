@@ -6,7 +6,7 @@ print(sys.path)
 from classes.TrackedTwitterAccount import TrackedTwitterAccount
 from helpers.idsToTrack import readIds
 
-idsToTrack = readIds()
+idsToTrack = readIds('4')
 
 accountsToTrack = []
 

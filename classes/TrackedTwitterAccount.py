@@ -40,7 +40,7 @@ class TrackedTwitterAccount:
 
     # Function to  write a list to a txt file
     def writeToFile(self, followingListIds):
-        fileName = "./text-files-4/" + self.id + ".txt"
+        fileName = "./text-files-" + self.listNumber + "/" + self.id + ".txt"
 
         with open(fileName, "w") as f:
             for id in followingListIds:
