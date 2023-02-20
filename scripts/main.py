@@ -12,5 +12,4 @@ if __name__ == "__main__":
     # Start the processes
     p1.start()
 
-    # Wait for the processes to finish
-    p1.join()
+

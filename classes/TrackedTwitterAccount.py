@@ -12,8 +12,8 @@ from classes.ToFollowAccount import ToFollowAccount
 class TrackedTwitterAccount:
     def __init__(self, id, listNumber):
         self.id = str(id)
-        bearer_token = "BEARER_TOKEN_" + listNumber
-        self.client = getTweepyClient(os.getenv(bearer_token))
+        self.listNumber = listNumber
+        self.client = getTweepyClient(listNumber)
         self.userObject = self.client.get_user(id=id)
 
     # Function for getting following list here
@@ -49,7 +49,7 @@ class TrackedTwitterAccount:
 
     # Function to read a file and extract ids to a list
     def extractIdsFromFile(self):
-        fileName = "./text-files/" + self.id + ".txt"
+        fileName = "./text-files-" + self.listNumber + "/"+ self.id + ".txt"
 
         with open(fileName, "r") as f:
             lines = f.readlines()

@@ -42,6 +42,6 @@ def runForEveryAccount():
 def schedule():
    
     scheduler = BlockingScheduler()
-    scheduler.add_job(runForEveryAccount, "interval", seconds=15)
+    scheduler.add_job(runForEveryAccount, "interval", minutes=15)
 
     scheduler.start()

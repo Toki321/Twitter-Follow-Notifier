@@ -1,4 +1,12 @@
 import tweepy
+import os
+import dotenv
 
-def getTweepyClient(bearer_token):
+dotenv.load_dotenv()
+
+def getTweepyClient(number):
+    bearer_token = "BEARER_TOKEN_" + number
+    bearer_token = os.getenv(bearer_token)
     return tweepy.Client(bearer_token)
+
+
