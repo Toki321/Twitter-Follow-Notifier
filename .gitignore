@@ -1,0 +1,8 @@
+/.env
+/venv
+/.vscode
+/__pycache__
+/text-files
+idsToTrack.txt
+/helpers/__pycache__
+/classes/__pycache__
