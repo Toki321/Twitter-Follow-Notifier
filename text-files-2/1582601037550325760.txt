@@ -1,8 +1,9 @@
+crypto_linn
+Ted_aka_Ethical
 SX_Network
 NiftyMuseum
 covofinance
 GatheringGwei
-0xbunium
 FancyGemsETH
 zoomerfied
 MantisSwap
@@ -97,4 +98,3 @@ littleprinceXBT
 DefiDegenL2
 avocado_toast2
 CC2Ventures
-alex_valaitis

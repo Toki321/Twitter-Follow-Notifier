@@ -1,3 +1,5 @@
+volta_protocol
+Rodeo_Finance
 0vixProtocol
 EricCryptoman
 BlocksNThoughts
@@ -96,5 +98,3 @@ l2_dariusking
 bitcoin_brown
 capitalist_sd
 HanzoYasunaga
-realdogen
-adv3nturers

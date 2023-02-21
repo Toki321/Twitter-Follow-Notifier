@@ -1,3 +1,5 @@
+CryptoKoryo
+bubblemaps
 MVX_Intern
 veSyncL2
 CasinoFantom
@@ -96,5 +98,3 @@ FexonFinance
 RealDegenGMX
 DeFi_Taha
 CryptoGirlNova
-TheDeFISaint
-Chinchillah_

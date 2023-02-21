@@ -1,3 +1,4 @@
+zachxbt
 whospay_intern
 Only1temmy
 milesdeutscher
@@ -97,4 +98,3 @@ modular_wallet
 sm0leee
 RiddlerDeFi
 crypto_noodles
-QuickScanERC20

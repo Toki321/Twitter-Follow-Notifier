@@ -1,3 +1,4 @@
+axelarcore
 ArchimedesFi
 gemstones_arbi
 MyMetaTrader
@@ -97,4 +98,3 @@ heyjasperai
 BoredBorderland
 catcoin
 cerusnodes
-2shabby

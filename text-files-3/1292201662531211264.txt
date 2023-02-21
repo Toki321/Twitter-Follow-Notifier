@@ -1,3 +1,9 @@
+unlimited_defi
+BNBCHAIN
+cryptokevin2011
+MorphexFTM
+ChainstackHQ
+PARABOLIT
 AutomaticDeFi
 FactorDAO
 Phoenix_Chain
@@ -69,7 +75,6 @@ newonoasis
 OasisRoseNews
 crypthoem
 milesdeutscher
-RingoshiToitsu
 volvot5turbo
 CRyptOracl3
 oddgems
@@ -93,8 +98,3 @@ jake_pahor
 CryptoShiro_
 Captain_Kole1
 crypto_blog
-GammaSwapLabs
-Aptos_Network
-theinformation
-KateClarkTweets
-NexaMoney

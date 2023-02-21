@@ -1,3 +1,4 @@
+takepile_
 AscendProtocol
 hc_trades
 nitrocartel
@@ -97,4 +98,3 @@ DoctorDeFi
 PoisonFinance
 Fibonaccious
 RaresamaNFT
-ExosamaNFT

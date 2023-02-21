@@ -1,3 +1,4 @@
+UmamiDao
 functi0nZer0
 term_labs
 DumbApe69420
@@ -97,4 +98,3 @@ Mayhem4Markets
 SpaghettiEddi12
 DepositDetector
 BigOrderDtctr
-TWAPDetector

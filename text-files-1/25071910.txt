@@ -1,3 +1,4 @@
+deltaxbt
 defi_mochi
 InsilicoTrading
 Cryptosis9_OKX
@@ -97,4 +98,3 @@ OuroborosCap8
 tenxtrades
 takuiten
 0xbarry
-Bejonft

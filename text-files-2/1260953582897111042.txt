@@ -1,3 +1,7 @@
+MartaVerse
+volta_protocol
+SherifDefi
+theguestlistTGL
 TheDeFiPlug
 GakiBash
 optimum_fund
@@ -22,7 +26,7 @@ AndrewMoh_
 ArbKingCoin
 TheLayer2DAO
 P2EArcade
-Degeneitor
+Arbi_Degen
 DeFiSharkk
 TeamKhabib
 squidrum_Arbi
@@ -63,7 +67,7 @@ Elements_Fi
 PolluxProtocol
 relay_chain
 YUMIYUKI_ARB
-ArbitrOHM
+picasoo777
 defitankland
 RabbitGuild
 cryptoai_erc
@@ -94,7 +98,3 @@ RealCryptoJamie
 __czyxraa
 Flufol
 GoranSavel
-fl0wjoe
-Gerry83375022
-ogmoonboi
-richmartineth

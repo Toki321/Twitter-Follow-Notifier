@@ -1,3 +1,7 @@
+ZinniaNetwork
+elysium_chain
+PentosFinance
+0xAcidDAO
 RamsesExchange
 pratikthakarshi
 CaptWoooDy
@@ -94,7 +98,3 @@ goblin_erc20
 DIAdata_org
 SplitCapital
 CryptoDonAlt
-Under__Radar
-VoidsNatural
-TickrTech
-Fibonaccious

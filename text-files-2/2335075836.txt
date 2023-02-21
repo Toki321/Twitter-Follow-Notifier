@@ -1,3 +1,6 @@
+vanessasierra00
+0xTiMan
+RoseonExchange
 P2EArcade
 Tanaka_L2
 RoseonAllan
@@ -95,6 +98,3 @@ CryptoPeta
 Arbitrum_Space
 orbitaldex
 sensilet
-novochainl1
-QuickScanERC20
-ParagonWallet

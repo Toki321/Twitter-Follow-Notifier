@@ -68,7 +68,7 @@ class ToFollowAccount:
 
     # Check if url anywhere exists
     def isUrlPresent(self):
-        if self.checkEntitiesUrl() == False or self.isBioUrlPresent() == False:
+        if self.checkEntitiesUrl() == True or self.isBioUrlPresent() == True:
             return True
         else:
             return False

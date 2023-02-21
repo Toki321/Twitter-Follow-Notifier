@@ -45,3 +45,5 @@ def schedule():
     scheduler.add_job(runForEveryAccount, "interval", minutes=15)
 
     scheduler.start()
+
+schedule()

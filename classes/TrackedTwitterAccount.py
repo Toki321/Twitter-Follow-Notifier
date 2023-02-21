@@ -40,7 +40,7 @@ class TrackedTwitterAccount:
 
     # Function to  write a list to a txt file
     def writeToFile(self, followingListIds):
-        fileName = "./text-files-" + self.listNumber + "/" + self.id + ".txt"
+        fileName = "./text-files-" + str(self.listNumber) + "/" + self.id + ".txt"
 
         with open(fileName, "w") as f:
             for id in followingListIds:
@@ -49,7 +49,7 @@ class TrackedTwitterAccount:
 
     # Function to read a file and extract ids to a list
     def extractIdsFromFile(self):
-        fileName = "./text-files-" + self.listNumber + "/"+ self.id + ".txt"
+        fileName = "./text-files-" + str(self.listNumber) + "/"+ self.id + ".txt"
 
         with open(fileName, "r") as f:
             lines = f.readlines()

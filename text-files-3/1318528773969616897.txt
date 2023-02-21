@@ -1,3 +1,5 @@
+DAdvisoor
+Uniswap
 wincashino
 CryptoYunqi
 BetSwirl
@@ -96,5 +98,3 @@ GmxLeaderboard
 LlamaNodes
 NorthRockLP
 gbc_sales_bot
-Dynamo_Patrick
-ivx_fi

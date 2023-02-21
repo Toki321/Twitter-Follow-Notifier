@@ -11,7 +11,7 @@ idsToTrack = readIds('4')
 accountsToTrack = []
 
 for id in idsToTrack:
-    account = TrackedTwitterAccount(id)
+    account = TrackedTwitterAccount(id, '4')
     accountsToTrack.append(account)
 
     usernameList = account.getListUsernameFollows()
